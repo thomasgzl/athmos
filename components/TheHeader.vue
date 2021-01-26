@@ -11,7 +11,7 @@
           <h4 class="sub">
             <vue-typer
               :repeat="Infinity"
-              :text="['Security Researcher', 'Web Developer']"
+              :text="['Front-end Developer', 'Graphic designer']"
               erase-style="backspace"
               :erase-delay="50"
               :pre-type-delay="500"
@@ -22,7 +22,7 @@
         </client-only>
         <noscript inline-template>
           <h4 class="sub">
-            Security Researcher
+            Front-end Developer
           </h4>
         </noscript>
       </div>
@@ -90,7 +90,7 @@
 }
 
 #control #side {
-  width: 240px;
+  width: 250px;
   padding: 78px 30px 0 30px;
   float: right;
 }

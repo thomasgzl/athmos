@@ -45,12 +45,12 @@ export default {
   head() {
     return {
       titleTemplate: '',
-      title: 'Muhaddis – Security Engineer',
+      title: 'Thomas Gonzalez – Web Developer',
       meta: [
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'Muhaddis – Security Engineer'
+          content: 'Thomas Gonzalez – Web Developer'
         },
         {
           hid: 'og:image',

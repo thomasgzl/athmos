@@ -1,0 +1,32 @@
+[
+  {
+    "name": "blogs",
+    "path": "/blogs",
+    "component": "/home/tgonzalez/Bureau/perso/pages/blogs/index.vue",
+    "chunkName": "pages/blogs/index"
+  },
+  {
+    "name": "newsletter",
+    "path": "/newsletter",
+    "component": "/home/tgonzalez/Bureau/perso/pages/newsletter.vue",
+    "chunkName": "pages/newsletter"
+  },
+  {
+    "name": "thankyou",
+    "path": "/thankyou",
+    "component": "/home/tgonzalez/Bureau/perso/pages/thankyou.vue",
+    "chunkName": "pages/thankyou"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/tgonzalez/Bureau/perso/pages/index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/home/tgonzalez/Bureau/perso/pages/_slug.vue",
+    "chunkName": "pages/_slug"
+  }
+]

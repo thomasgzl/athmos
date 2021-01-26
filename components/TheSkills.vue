@@ -8,28 +8,24 @@
       <div class="skill-set">
         <div class="card">
           <div class="item">
-            <img src="@/assets/images/skills-assets/Security.svg" />
-            <span>Application Security</span>
+            <img src="@/assets/images/skills-assets/Vuejs.svg" />
+            <span>Vue.js</span>
           </div>
           <div class="item">
-            <img src="@/assets/images/skills-assets/Penetration-Testing.svg" />
-            <span>Penetration Testing</span>
+            <img src="@/assets/images/skills-assets/Javascript.svg" />
+            <span>Javascript</span>
           </div>
           <div class="item">
-            <img src="@/assets/images/skills-assets/BurpSuite.svg" />
-            <span>Burp Suite</span>
+            <img src="@/assets/images/skills-assets/Nodejs.svg" />
+            <span>Node.js</span>
           </div>
           <div class="item">
-            <img src="@/assets/images/skills-assets/AWS.svg" />
-            <span>AWS</span>
+            <img src="@/assets/images/skills-assets/npm.svg" />
+            <span>npm</span>
           </div>
           <div class="item">
             <img src="@/assets/images/skills-assets/Docker.png" />
             <span>Docker</span>
-          </div>
-          <div class="item">
-            <img src="@/assets/images/skills-assets/Kubernetes.svg" />
-            <span>Kubernetes</span>
           </div>
           <div class="item">
             <img src="@/assets/images/skills-assets/Git.svg" />
@@ -44,26 +40,6 @@
             <span>MongoDB</span>
           </div>
           <div class="item">
-            <img src="@/assets/images/skills-assets/Firebase.svg" />
-            <span>Firebase</span>
-          </div>
-          <div class="item">
-            <img src="@/assets/images/skills-assets/Laravel.svg" />
-            <span>Laravel</span>
-          </div>
-          <div class="item">
-            <img src="@/assets/images/skills-assets/Python.svg" />
-            <span>Python</span>
-          </div>
-          <div class="item">
-            <img src="@/assets/images/skills-assets/Nodejs.svg" />
-            <span>Node.Js</span>
-          </div>
-          <div class="item">
-            <img src="@/assets/images/skills-assets/Vuejs.svg" />
-            <span>Vue.Js</span>
-          </div>
-          <div class="item">
             <img src="@/assets/images/skills-assets/Nuxtjs.svg" />
             <span>Nuxt.Js</span>
           </div>
@@ -72,8 +48,12 @@
             <span>React.Js</span>
           </div>
           <div class="item">
-            <img src="@/assets/images/skills-assets/GraphQL.svg" />
-            <span>GraphQL</span>
+            <img src="@/assets/images/skills-assets/Photoshop.svg" />
+            <span>Adobe Photoshop</span>
+          </div>
+          <div class="item">
+            <img src="@/assets/images/skills-assets/Illustrator.svg" />
+            <span>Adobe Illustrator</span>
           </div>
         </div>
       </div>
@@ -111,6 +91,7 @@ export default {}
   }
 }
 .skill-set .card .item {
+  filter: grayscale(100%);
   width: 128px;
   display: flex;
   flex-direction: column;
@@ -119,6 +100,13 @@ export default {}
   margin-bottom: 48px;
   overflow: hidden;
   cursor: pointer;
+}
+
+.skill-set .card .item:hover {
+  filter: grayscale(0%);
+  transition-duration: 1.5s;
+  transition-property: filter;
+  transition-timing-function: linear;
 }
 @media screen and (max-width: 1024px) {
   .skill-set .card .item {

@@ -10,25 +10,25 @@
         </p>
 
         <address>
-          Email: Ask@Muhaddis.Info
+          Email: thomasgonzalez.pro@gmail.com
         </address>
 
         <ul id="social">
-          <li class="facebook">
-            <a href="https://facebook.com/MuhaddiMu" target="_blank"
-              >Facebook</a
+          <li class="instagram">
+            <a href="https://instagram.com/athmos9" target="_blank"
+              >Instagram</a
             >
           </li>
           <li class="twitter">
-            <a href="https://twitter.com/MuhaddiMu" target="_blank">Twitter</a>
+            <a href="https://twitter.com/athmos6" target="_blank">Twitter</a>
           </li>
           <li class="linkedin">
-            <a href="https://www.linkedin.com/in/MuhaddiMu" target="_blank"
+            <a href="https://www.linkedin.com/in/thomasgzl/" target="_blank"
               >LinkedIn</a
             >
           </li>
           <li class="github">
-            <a href="https://github.com/MuhaddiMu" target="_blank">GitHub</a>
+            <a href="https://github.com/thomasgzl" target="_blank">GitHub</a>
           </li>
         </ul>
       </div>
@@ -270,13 +270,15 @@ export default {
 }
 
 #social li {
+  filter: grayscale(100%);
   float: left;
   margin: 0 10px 10px 0;
   opacity: 0.5;
   transition: 200ms;
 }
 #social li:hover {
-  opacity: 1;
+    filter: grayscale(0%);
+
 }
 
 #social li a {
@@ -286,21 +288,21 @@ export default {
   text-indent: -9999px;
 }
 
-#social .facebook a {
-  background: url('~assets/images/icons/social_facebook.png') top left no-repeat;
+#social .instagram a {
+  background: url('~assets/images/icons/instagram.svg') top left no-repeat;
   background-size: 32px 32px;
 }
 #social .twitter a {
-  background: url('~assets/images/icons/social_twitter.png') top left no-repeat;
+  background: url('~assets/images/icons/twitter.svg') top left no-repeat;
   background-size: 32px 32px;
 }
 #social .linkedin a {
-  background: url('~assets/images/icons/social_linkedin.png') top left no-repeat;
+  background: url('~assets/images/icons/linkedin.svg') top left no-repeat;
   background-size: 32px 32px;
 }
 
 #social .github a {
-  background: url('~assets/images/icons/social_github.png') top left no-repeat;
+  background: url('~assets/images/icons/github.svg') top left no-repeat;
   background-size: 32px 32px;
 }
 

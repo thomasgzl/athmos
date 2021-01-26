@@ -1,0 +1,62 @@
+{
+  "VImg": {
+    "description": "Auto imported from /components/global/VImg.vue"
+  },
+  "LazyVImg": {
+    "description": "Auto imported from /components/global/VImg.vue"
+  },
+  "ScrollToTop": {
+    "description": "Auto imported from /components/ScrollToTop.vue"
+  },
+  "LazyScrollToTop": {
+    "description": "Auto imported from /components/ScrollToTop.vue"
+  },
+  "TheBlogs": {
+    "description": "Auto imported from /components/TheBlogs.vue"
+  },
+  "LazyTheBlogs": {
+    "description": "Auto imported from /components/TheBlogs.vue"
+  },
+  "TheContact": {
+    "description": "Auto imported from /components/TheContact.vue"
+  },
+  "LazyTheContact": {
+    "description": "Auto imported from /components/TheContact.vue"
+  },
+  "TheHeader": {
+    "description": "Auto imported from /components/TheHeader.vue"
+  },
+  "LazyTheHeader": {
+    "description": "Auto imported from /components/TheHeader.vue"
+  },
+  "TheHonors": {
+    "description": "Auto imported from /components/TheHonors.vue"
+  },
+  "LazyTheHonors": {
+    "description": "Auto imported from /components/TheHonors.vue"
+  },
+  "TheProfile": {
+    "description": "Auto imported from /components/TheProfile.vue"
+  },
+  "LazyTheProfile": {
+    "description": "Auto imported from /components/TheProfile.vue"
+  },
+  "TheProjectItem": {
+    "description": "Auto imported from /components/TheProjectItem.vue"
+  },
+  "LazyTheProjectItem": {
+    "description": "Auto imported from /components/TheProjectItem.vue"
+  },
+  "TheSkills": {
+    "description": "Auto imported from /components/TheSkills.vue"
+  },
+  "LazyTheSkills": {
+    "description": "Auto imported from /components/TheSkills.vue"
+  },
+  "TheWorks": {
+    "description": "Auto imported from /components/TheWorks.vue"
+  },
+  "LazyTheWorks": {
+    "description": "Auto imported from /components/TheWorks.vue"
+  }
+}
